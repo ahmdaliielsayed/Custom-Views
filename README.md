@@ -8,11 +8,21 @@ Introduction
 
 Custom Fan Controller is an app for making custom DialView.
 
-In this codelab, the Fan DialView starts with off. 
-When you click on DialView, the indicator moves to 1.
-Another click, moves to 2.
-Another click, moves to 3.
-Another one, moves to off again.
+- In this codelab, the Fan DialView starts with off. 
+- When you click on DialView, the indicator moves to 1.
+- Another click, moves to 2.
+- Another click, moves to 3.
+- Another one, moves to off again.
+
+## Summary
+* Subclass an existing view and override methods.
+* Create a subclass of [View](https://developer.android.com/reference/android/view/View) to customize everything.
+* Override View methods such as [onDraw()](https://developer.android.com/reference/android/view/View.html#onDraw%28android.graphics.Canvas%29)
+* Use [invalidate()](https://developer.android.com/reference/android/view/View.html#invalidate()) to force a draw or redraw of the view.
+* Allocate space and initialize variables outside onDraw().
+* Override [performClick()](https://developer.android.com/reference/android/view/View.html#performClick())
+* Use XML layout file.
+* Create attrs.xml file to define custom attributes.
 
 ### Screenshots
 
