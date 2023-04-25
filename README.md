@@ -6,7 +6,7 @@ Solution code for Advanced Android with Kotlin Codelab
 Introduction
 ------------
 
-Custom Fan Controller is an app for makin custom DialView.
+Custom Fan Controller is an app for making custom DialView.
 
 In this codelab, the Fan DialView starts with off. 
 When you click on DialView, the indicator moves to 1.
